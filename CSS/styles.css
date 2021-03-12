@@ -1,0 +1,163 @@
+/* NAVIGATION */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.dropdown-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.hamburger-bars {
+    font-size: 26px;
+    color: #0b3a40;
+    line-height: 80px;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    top: 100px;
+    left: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    max-height: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    padding: 0 15px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 12px;
+    color: #0b3a40;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+nav ul li a:hover {
+    color: #7b4026;
+    border-bottom: 2px solid #7b4026;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav ul {
+    max-height: 200px;
+    padding: 15px 0;
+}
+
+/* FOOTER */
+.footer-ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #0b3a40;
+    color: white;
+    line-height: 28px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    border-bottom: 1px solid white;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.footer-container {
+    flex: 1;
+}
+
+.footer-sections {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    padding: 20px;
+    min-width: 200px;
+}
+
+.fa-facebook-square,
+.fa-instagram {
+  font-size: 36px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .hamburger-bars {
+        display: none;
+    }
+
+    nav {
+        position: relative;
+        top: -10px;
+        background-color: white;
+    }
+
+    nav ul {
+        max-height: 100px;
+        padding: 15px 0;
+        text-align: right;
+    }
+
+    nav ul li {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 26px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .footer-sections {
+        justify-content: space-evenly;
+    }
+}
