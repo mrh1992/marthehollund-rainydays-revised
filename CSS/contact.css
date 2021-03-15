@@ -1,0 +1,60 @@
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+    text-align: center;
+    color: #0b3a40;
+    margin: 20px 0 20px 0;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding: 3em;
+    background: white;
+    display: block;
+    border: 2px solid #7b4026;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 10px;
+    font-size: 20px;
+    border: none; 
+    border-bottom: 1px solid #0b3a40;
+    outline: none;
+}
+
+.input-name, .input-message, .input-email {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    display: block;
+    color: #0b3a40;
+}
+
+.form-error {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: 2px;
+}
+
+button {
+    border: none;
+    background-color: #7b4026;
+    color: white;
+    padding: 10px;
+    margin: 15px 0 15px 0;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: lighter;
+}

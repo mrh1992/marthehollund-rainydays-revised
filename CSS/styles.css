@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    height: 90px;
+    height: 80px;
 }
 
 .hamburger-bars {
@@ -69,13 +69,13 @@ nav ul li a:hover {
 }
 
 #hamburger-menu:checked ~ nav ul {
-    max-height: 200px;
+    max-height: 250px;
     padding: 15px 0;
 }
 
 /* FOOTER */
 .footer-ul {
-    list-style: none;
+    list-style-type: none;
     padding-left: 0;
 }
 
@@ -127,13 +127,6 @@ body {
 .fa-instagram {
   font-size: 36px;
 }
-
-/* Homepage*/ 
-.main-picture {
-    max-height: 100%;
-    max-width: 100%;
-}
-
 
 @media only screen and (min-width: 768px) {
     .hamburger-bars {
