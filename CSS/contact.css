@@ -1,8 +1,5 @@
 .contact-container {
     display: flex;
-    flex-wrap: wrap;
-    direction: column;
-    align-items: center;
     justify-content: center;
 }
 
