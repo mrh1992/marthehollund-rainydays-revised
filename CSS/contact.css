@@ -1,14 +1,40 @@
+.contact-img {
+    max-width: 100%;
+}
+
+.contact-header-container {
+    position: relative;
+    text-align: center;
+}
+
+.contact-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px #0b3a40;
+}
+
+h2 {
+    color: #0b3a40;
+}
+
 .contact-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 form {
-    padding: 3em;
+    width: 100%;
+    margin: 30px;
+    padding: 40px;
     background: white;
     display: block;
     border: 2px solid #7b4026;
-    margin-bottom: 30px;
 }
 
 input {
@@ -22,9 +48,9 @@ input {
 }
 
 .input-name, .input-message, .input-email {
-    margin-bottom: 1rem;
-    margin-top: 2rem;
     display: block;
+    margin-bottom: 16px;
+    margin-top: 32px;
     color: #0b3a40;
 }
 
@@ -46,4 +72,18 @@ button {
     border-radius: 10px;
     font-size: 18px;
     font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-header {
+        font-size: 72px;
+    }
+
+    .contact-container {
+        justify-content: center;
+    }
+
+    form {
+        max-width: 600px;
+    }
 }

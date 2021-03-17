@@ -23,11 +23,31 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.about-box {
     max-width: 400px;
 }
+
+h2 {
+    text-align: center;
+    color: #7b4026;
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
 
 @media only screen and (min-width: 768px) {
     .about-header {
         font-size: 72px;
+    }
+
+    .about-box {
+        max-width: 500px;
     }
 }
