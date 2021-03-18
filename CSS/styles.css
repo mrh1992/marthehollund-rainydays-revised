@@ -82,8 +82,8 @@ nav ul li a:hover {
 }
 
 /* FOOTER */
-.footer-ul {
-    list-style-type: none;
+.footer-column {
+    list-style: none;
     padding-left: 0;
 }
 
