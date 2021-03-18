@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://kit.fontawesome.com/fa2c4d853e.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/fa2c4d853e.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainy Days</title>
@@ -12,7 +15,12 @@
   <body>
     <header>
       <div class="dropdown-menu">
-        <a href="index.html"><img src="Images/RainyDays_Logo.png" alt="Brandlogo for Raindy Days" class="logo"/></a>
+        <a href="index.html"
+          ><img
+            src="Images/RainyDays_Logo.png"
+            alt="Brandlogo for Raindy Days"
+            class="logo"
+        /></a>
         <label for="hamburger-menu">
           <i class="fas fa-bars hamburger-bars"></i>
         </label>
@@ -21,57 +29,81 @@
           <ul>
             <li><a href="women.html">Women</a></li>
             <li><a href="men.html">Men</a></li>
-            <li><a href="#"><i class="fas fa-search"></i></a></li>
-            <li><a href="shoppingbag.html"><i class="fas fa-shopping-bag"></i></a></li>
+            <li>
+              <a href="#"><i class="fas fa-search"></i></a>
+            </li>
+            <li>
+              <a href="shoppingbag.html"><i class="fas fa-shopping-bag"></i></a>
+            </li>
           </ul>
         </nav>
       </div>
     </header>
     <main>
-        <div class="productinfo-container">
-            <div class="productimg-container">
-                <img src="Images/edit-3.jpg" alt="boy posing in yellow and blue jacket" class="productimg-container">
-            </div>
-            <div class="productdetails-container">
-                <h2>Men´s RainJacket</h2>
-                <h4>$ 300</h4>
-                <form>
-                    <select>
-                        <option value="Select Size">Select Size</option>
-                        <option value="X-Small">X-Small</option>
-                        <option value="Small">Small</option>
-                        <option value="Medium">Medium</option>
-                        <option value="Large">Large</option>
-                        <option value="X-Large">X-Large</option>
-                    </select>
-                    <input type="number" value="1">
-                </form>
-                <h4>Description</h4>
-                <p>Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum
-                    Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum
-                    Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum
-                </p>
-                <a href="#"><button class="add-btn">Add to cart</button></a>
-            </div>
+      <div class="productinfo-container">
+        <div class="productimg-container">
+          <img
+            src="Images/edit-3.jpg"
+            alt="boy posing in yellow and blue jacket"
+            class="productimg-container"
+          />
         </div>
+        <div class="productdetails-container">
+          <h2>Men´s RainJacket</h2>
+          <h4>$ 300</h4>
+          <form>
+            <select>
+              <option value="Select Size">Select Size</option>
+              <option value="X-Small">X-Small</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="X-Large">X-Large</option>
+            </select>
+            <input type="number" value="1" />
+          </form>
+          <h4>Description</h4>
+          <p>
+            Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem
+            Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum
+            Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem
+            Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum Lorem Ipsum
+            Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem
+            Ispum Lorem Ipsum LoremIpsum
+          </p>
+          <a href="#popup1"><button class="add-btn">Add to cart</button></a>
+
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h5>Item Added To Shoppingbag</h5>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                <a href="#"
+                  ><button class="checkout-btn">To Checkout</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <div class="footer-container"></div>
     <footer>
-        <section class="footer-sections">
-          <div class="footer-nav">
-            <ul class="footer-column">
-              <h3>Information</h3>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="rainydays.html">#Rainydays</a></li>
-            </ul>
-          </div>
-          <div class="footer-column">
-            <h3>Follow Us</h3>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-instagram"></i>
-          </div>
-        </section>
-      </footer>
-    </body>
-    </html>
+      <section class="footer-sections">
+        <div class="footer-nav">
+          <ul class="footer-column">
+            <h3>Information</h3>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="rainydays.html">#Rainydays</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
