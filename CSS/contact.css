@@ -1,89 +1,90 @@
 .contact-img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .contact-header-container {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .contact-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: bolder;
-    color: white;
-    text-shadow: 2px 2px #0b3a40;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px #0b3a40;
 }
 
 h2 {
-    color: #0b3a40;
+  color: #0b3a40;
 }
 
 .contact-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 form {
-    width: 100%;
-    margin: 30px;
-    padding: 40px;
-    background: white;
-    display: block;
-    border: 2px solid #7b4026;
+  width: 100%;
+  margin: 30px;
+  padding: 40px;
+  background: white;
+  display: block;
+  border: 2px solid #7b4026;
 }
 
 input {
-    width: 100%;
-    margin-top: 2px;
-    padding: 10px;
-    font-size: 20px;
-    border: none; 
-    border-bottom: 1px solid #0b3a40;
-    outline: none;
+  width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #0b3a40;
 }
 
-.input-name, .input-message, .input-email {
-    display: block;
-    margin-bottom: 16px;
-    margin-top: 32px;
-    color: #0b3a40;
+.input-name,
+.input-message,
+.input-email {
+  display: block;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  color: #0b3a40;
 }
 
 .form-error {
-    display: none;
-    color: red;
-    font-size: 12px;
-    margin-top: 2px;
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
 }
 
 button {
-    border: none;
-    background-color: #7b4026;
-    color: white;
-    padding: 10px;
-    margin: 15px 0 15px 0;
-    cursor: pointer;
-    width: 50%;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: lighter;
+  border: none;
+  background-color: #7b4026;
+  color: white;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 @media only screen and (min-width: 768px) {
-    .contact-header {
-        font-size: 72px;
-    }
+  .contact-header {
+    font-size: 72px;
+  }
 
-    .contact-container {
-        justify-content: center;
-    }
+  .contact-container {
+    justify-content: center;
+  }
 
-    form {
-        max-width: 600px;
-    }
+  form {
+    max-width: 600px;
+  }
 }

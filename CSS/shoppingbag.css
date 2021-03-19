@@ -1,73 +1,103 @@
-
 .cart-container {
-    margin: 50px auto;
+  margin: 50px auto;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
 tbody {
-    display: table-row-group;
-    vertical-align: middle;
+  display: table-row-group;
+  vertical-align: middle;
 }
 
 .item {
-    text-align: left;
+  text-align: left;
 }
 
-.quantity, .total {
-    text-align: right;
+.quantity,
+.total {
+  text-align: right;
 }
 
 tr {
-    display: table-row;
-    vertical-align: inherit;
+  display: table-row;
+  vertical-align: inherit;
 }
- 
+
 th {
-    background-color: #0b3a40;
-    color: white;
-    padding: 5px;
-    font-size: 24px;
-    font-weight: normal;
+  background-color: #0b3a40;
+  color: white;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 td {
-    display: table-cell;
-    vertical-align: inherit;
-    text-align: right;
-    padding: 10px 5px;
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: right;
+  padding: 10px 5px;
 }
 
-td input {
-    width: 40px;
-    height: 25px;
-    font-size: 16px;
-    text-align: center;
-    border: 1px solid #0b3a40;
+.qty-input {
+  width: 60px;
+  height: 25px;
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid #0b3a40;
 }
 
 .item-cart {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin-top: 30px;
 }
 
 .item-img {
-    max-width: 150px;
-    height: 200px;
+  max-width: 150px;
+  height: 200px;
 }
 
 .item-details {
-    margin-top: 30px;
-    margin-left: 5px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+/* Checkout Form */
+.checkout-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+form {
+  width: 100%;
+  margin: 30px;
+  padding: 40px;
+  background: white;
+  display: block;
+  border: 2px solid #7b4026;
+}
+
+input {
+  width: 100%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 1px solid #0b3a40;
 }
 
 @media only screen and (min-width: 768px) {
-    .cart-container {
-        max-width: 1100px;
-    }
+  .cart-container {
+    max-width: 1100px;
+  }
+
+  .checkout-container {
+    max-width: 1100px;
+    justify-content: center;
+  }
 }
