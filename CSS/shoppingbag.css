@@ -3,7 +3,6 @@ div {
 }
 
 .cart-container {
-    max-width: 1100px;
     margin: 50px auto;
 }
 
@@ -67,4 +66,8 @@ td input {
     margin-left: 5px;
 }
 
-
+@media only screen and (min-width: 768px) {
+    .cart-container {
+        max-width: 1100px;
+    }
+}
