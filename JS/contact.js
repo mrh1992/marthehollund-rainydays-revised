@@ -15,7 +15,7 @@ function validateContactForm(event) {
         fullNameError.style.display = "block";
     }
 
-    if (validateLength(email.value) === true) {
+    if (validateEmail(email.value) === true) {
         emailError.style.display = "none";
     } else {
         emailError.style.display = "block";
