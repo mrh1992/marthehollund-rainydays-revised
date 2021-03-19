@@ -1,0 +1,27 @@
+h4 {
+  text-align: center;
+  color: #7b4026;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.tag-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tag-img {
+  max-width: 300px;
+}
+
+.tag-image {
+  max-width: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+  .tag-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

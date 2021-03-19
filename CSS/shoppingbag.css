@@ -91,6 +91,22 @@ input {
   border-bottom: 1px solid #0b3a40;
 }
 
+.input-name,
+.input-email,
+.input-address,
+.input-city,
+.icon {
+  display: block;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  color: #0b3a40;
+}
+
+.icon-container {
+  color: #0b3a40;
+  font-size: 32px;
+}
+
 .form-error {
   display: none;
   color: red;
@@ -104,6 +120,23 @@ button {
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.confirm-btn {
+  border: none;
+  background-color: #7b4026;
+  color: white;
+  padding: 10px;
+  margin: 15px 0 30px 0;
   cursor: pointer;
   width: 30%;
   border-radius: 10px;
