@@ -30,13 +30,11 @@ tr {
 }
  
 th {
-    text-align: left;
     background-color: #0b3a40;
     color: white;
     padding: 5px;
     font-size: 24px;
     font-weight: normal;
-    text-align: right;
 }
 
 td {
@@ -59,7 +57,7 @@ td input {
 
 .item-img {
     max-width: 150px;
-    max-height: 150px;
+    height: 200px;
 }
 
 .item-details {
