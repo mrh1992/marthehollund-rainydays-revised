@@ -91,13 +91,36 @@ input {
   border-bottom: 1px solid #0b3a40;
 }
 
+.form-error {
+  display: none;
+  color: red;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
+button {
+  border: none;
+  background-color: #7b4026;
+  color: white;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
 @media only screen and (min-width: 768px) {
   .cart-container {
     max-width: 1100px;
   }
 
   .checkout-container {
-    max-width: 1100px;
     justify-content: center;
+  }
+
+  form {
+    max-width: 1100px;
   }
 }

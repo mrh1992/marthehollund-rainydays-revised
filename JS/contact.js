@@ -3,8 +3,8 @@ const fullName = document.querySelector("#fullName");
 const fullNameError = document.querySelector("#fullNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const address = document.querySelector("#message");
-const addressError = document.querySelector("#messageError");
+const message = document.querySelector("#message");
+const messageError = document.querySelector("#messageError");
 
 function validateContactForm(event) {
     event.preventDefault();
