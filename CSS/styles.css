@@ -1,135 +1,136 @@
 h1 {
-    font-weight: normal;
-    font-size: 24px;
-    text-align: center;
-    color: #0b3a40;
-    margin: 20px 0 20px 0;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #0b3a40;
+  margin: 20px 0 20px 0;
 }
 
 /* NAVIGATION */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica, sans-serif;
 }
 
 body {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 header {
-    height: 100px;
-    background-color: white;
-    padding: 10px 0;
+  height: 100px;
+  background-color: white;
+  padding: 10px 0;
 }
 
 .dropdown-menu {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .logo {
-    height: 80px;
+  height: 80px;
 }
 
 .hamburger-bars {
-    font-size: 26px;
-    color: #0b3a40;
-    line-height: 80px;
+  font-size: 26px;
+  color: #0b3a40;
+  line-height: 80px;
 }
 
 nav {
-    position: absolute;
-    background-color: white;
-    top: 100px;
-    left: 0;
-    width: 100%;
+  z-index: 9999;
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  left: 0;
+  width: 100%;
 }
 
 nav ul {
-    list-style-type: none;
-    max-height: 0;
-    overflow: hidden;
+  list-style-type: none;
+  max-height: 0;
+  overflow: hidden;
 }
 
 nav ul li {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 12px;
-    color: #0b3a40;
-    text-decoration: none;
-    font-size: 26px;
+  display: inline-block;
+  padding: 12px;
+  color: #0b3a40;
+  text-decoration: none;
+  font-size: 26px;
 }
 
 nav ul li a:hover {
-    color: #7b4026;
-    border-bottom: 2px solid #7b4026;
+  color: #7b4026;
+  border-bottom: 2px solid #7b4026;
 }
 
 #hamburger-menu {
-    display: none;
+  display: none;
 }
 
 #hamburger-menu:checked ~ nav ul {
-    max-height: 250px;
-    padding: 15px 0;
+  max-height: 250px;
+  padding: 15px 0;
 }
 
 /* FOOTER */
 .footer-column {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 footer {
-    background-color: #0b3a40;
-    color: white;
-    line-height: 28px;
+  background-color: #0b3a40;
+  color: white;
+  line-height: 28px;
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: normal;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 footer a:hover {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 h3 {
-    color: white;
-    font-size: 24px;
-    font-weight: normal;
-    padding-bottom: 5px;
+  color: white;
+  font-size: 24px;
+  font-weight: normal;
+  padding-bottom: 5px;
 }
 
 body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .footer-container {
-    flex: 1;
+  flex: 1;
 }
 
 .footer-sections {
-    padding: 20px 30px;
-    display: flex;
-    flex-wrap: wrap;
+  padding: 20px 30px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footer-column {
-    padding: 20px;
-    min-width: 200px;
+  padding: 20px;
+  min-width: 200px;
 }
 
 .fa-facebook-square,
@@ -138,39 +139,39 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
-    .hamburger-bars {
-        display: none;
-    }
+  .hamburger-bars {
+    display: none;
+  }
 
-    nav {
-        position: relative;
-        top: -10px;
-        background-color: white;
-    }
+  nav {
+    position: relative;
+    top: -10px;
+    background-color: white;
+  }
 
-    nav ul {
-        max-height: 100px;
-        padding: 15px 0;
-        text-align: right;
-    }
+  nav ul {
+    max-height: 100px;
+    padding: 15px 0;
+    text-align: right;
+  }
 
-    nav ul li {
-        display: inline-flex;
-        padding-left: 20px;
-    }
+  nav ul li {
+    display: inline-flex;
+    padding-left: 20px;
+  }
 
-    nav ul li a {
-        font-size: 26px;
-        padding-bottom: 10px;
-    }
+  nav ul li a {
+    font-size: 26px;
+    padding-bottom: 10px;
+  }
 
-    h1 {
-        font-size: 48px;
-    }
+  h1 {
+    font-size: 48px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .footer-sections {
-        justify-content: space-evenly;
-    }
+  .footer-sections {
+    justify-content: space-evenly;
+  }
 }
