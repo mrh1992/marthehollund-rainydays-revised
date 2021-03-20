@@ -44,7 +44,7 @@ h4 {
 }
 
 input {
-  width: 40px;
+  width: 50px;
   height: 25px;
   font-size: 16px;
   text-align: center;
@@ -158,6 +158,6 @@ select {
   }
 
   .popup h5 {
-    font-size: 32px;
+    font-size: 26px;
   }
 }

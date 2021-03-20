@@ -1,53 +1,54 @@
 .about-img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .about-header-container {
-    position: relative;
-    text-align: center;
+  position: relative;
+  text-align: center;
 }
 
 .about-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: bolder;
-    color: white;
-    text-shadow: 2px 2px #0b3a40;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px #0b3a40;
 }
 
 .about-text-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-box {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 h2 {
-    text-align: center;
-    color: #7b4026;
-    padding: 10px;
+  text-align: center;
+  color: #7b4026;
+  padding: 10px;
+  font-size: 26px;
+  font-weight: bold;
 }
 
 p {
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 30px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 30px;
 }
 
-
 @media only screen and (min-width: 768px) {
-    .about-header {
-        font-size: 72px;
-    }
+  .about-header {
+    font-size: 72px;
+  }
 
-    .about-box {
-        max-width: 500px;
-    }
+  .about-box {
+    max-width: 500px;
+  }
 }
