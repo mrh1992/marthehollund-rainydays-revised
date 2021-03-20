@@ -144,6 +144,10 @@ button {
   font-weight: lighter;
 }
 
+h2 {
+  color: #0b3a40;
+}
+
 @media only screen and (min-width: 768px) {
   .cart-container {
     max-width: 1100px;

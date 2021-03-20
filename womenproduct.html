@@ -10,7 +10,7 @@
     <title>Rainy Days - Productinfo</title>
     <meta name="description" content="Pushing the comfort zone" />
     <link href="CSS/styles.css" rel="stylesheet" />
-    <link href="CSS/index.css" rel="stylesheet" />
+    <link href="CSS/products.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -39,7 +39,55 @@
         </nav>
       </div>
     </header>
-    <main></main>
+    <main>
+      <a href="women.html" class="back-button"> << Back</a>
+      <div class="productinfo-container">
+        <div class="productimg-container">
+          <img
+            src="Images/edit-2.jpg"
+            alt="girl on mountain in yellow jacket"
+            class="productimg-container"
+          />
+        </div>
+        <div class="productdetails-container">
+          <h2>Women´s RainJacket</h2>
+          <h4>$ 300</h4>
+          <form>
+            <select>
+              <option value="Select Size">Select Size</option>
+              <option value="X-Small">X-Small</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+              <option value="Large">Large</option>
+              <option value="X-Large">X-Large</option>
+            </select>
+            <input type="number" value="1" />
+          </form>
+          <h4>Description</h4>
+          <p>
+            Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem
+            Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum
+            Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem
+            Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum Lorem Ipsum
+            Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem
+            Ispum Lorem Ipsum LoremIpsum
+          </p>
+          <a href="#add-popup"><button class="add-btn">Add to cart</button></a>
+
+          <div id="add-popup" class="overlay">
+            <div class="popup">
+              <h5>Item Added To Shoppingbag</h5>
+              <a class="close" href="#">&times;</a>
+              <div class="content">
+                <a href="shoppingbag.html"
+                  ><button class="checkout-btn">To Checkout</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <div class="footer-container"></div>
     <footer>
       <section class="footer-sections">
