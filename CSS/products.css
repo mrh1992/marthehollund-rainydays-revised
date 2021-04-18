@@ -75,6 +75,11 @@ select {
   margin-top: 50px;
 }
 
+.api-container {
+  display: flex;
+  justify-content: center;
+}
+
 /* Pop-up */
 
 .overlay {
