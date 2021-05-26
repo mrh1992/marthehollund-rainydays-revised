@@ -1,4 +1,4 @@
-const url = "http://localhost:8888/rainy-days/wp-json/wc/store/products";
+const url = "https://rainydays.hollundplants.com//wp-json/wc/store/products";
 const productContainer = document.querySelector(".product-container");
 
 async function getProducts() {

@@ -8,7 +8,7 @@ const id = params.get("id");
 
 console.log(id);
 
-const url = "http://localhost:8888/rainy-days/wp-json/wc/store/products/" + id;
+const url = "https://rainydays.hollundplants.com/wp-json/wc/store/products/" + id;
 
 console.log(url);
 
