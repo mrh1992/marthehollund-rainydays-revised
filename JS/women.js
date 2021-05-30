@@ -8,12 +8,9 @@ async function getProducts() {
 
         const results = await response.json();
 
-        console.log(results);
-
         productContainer.innerHTML = "";
 
         for (let i = 0; i < results.length; i++) {
-            console.log(results[i].name);
 
             productContainer.innerHTML += `<div class="product-card">
                                             <img src="${results[i].images[0].src}" alt="${results[i].name}" class="product-img">
