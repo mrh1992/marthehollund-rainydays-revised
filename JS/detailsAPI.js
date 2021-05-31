@@ -41,15 +41,10 @@ async function fetchProduct() {
                 <input type="number" value="1" />
             </form>
             <h4>Description</h4>
-            <p>
-                Lorem Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem
-                Ipsum Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum
-                Lorem Ipsum Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem
-                Ipsum Lorem Ispum Lorem Ipsum LoremIpsum Lorem Ipsum Lorem Ipsum
-                Lorem Ispum Lorem Ipsum LoremIpsumLorem Ipsum Lorem Ipsum Lorem
-                Ispum Lorem Ipsum LoremIpsum
-            </p>
+            <p>${details.short_description}</p>
+            <p>${details.description}</p>
             <a href="#add-popup"><button class="add-btn">Add to cart</button></a>
+            <a href="index.html"><button class="back-btn">Back</button></a>
 
             <div id="add-popup" class="overlay">
                 <div class="popup">

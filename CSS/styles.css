@@ -82,6 +82,28 @@ nav ul li a:hover {
   padding: 15px 0;
 }
 
+/* Back Button */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px;
+}
+
+.back-btn {
+  border: none;
+  background-color: #0b3a40;
+  color: white;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
 /* FOOTER */
 .footer-column {
   list-style: none;
