@@ -63,10 +63,16 @@ h4 {
   background-color: #7b4026;
   color: white;
   padding: 10px;
-  margin: 15px 15px 15px 0;
+  margin: 15px 0 15px 0;
   cursor: pointer;
   width: 150px;
   border-radius: 10px;
   font-size: 18px;
   font-weight: lighter;
+}
+
+@media only screen and (min-width: 768px) {
+  .load-btn {
+    margin-right: 15px;
+  }
 }
