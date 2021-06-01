@@ -24,7 +24,7 @@ async function fetchProduct() {
         <div class="modal-container">
         <span class="close">&times;</span>
         <img class="modal-image">
-        <div class="caption">${details.name}</div>
+        <div class="productname">${details.name}</div>
         </div>
         <div class="productdetails-container">  
             <h4>${details.name}</h4>
@@ -61,7 +61,7 @@ async function fetchProduct() {
         const modal = document.querySelector(".modal-container");
         const img = document.querySelector(".productimg-container");
         const modalImage = document.querySelector(".modal-image");
-        const caption = document.querySelector(".caption");
+        const productName = document.querySelector(".productname");
 
         img.onclick = function() {
             modal.style.display = "block";

@@ -60,7 +60,6 @@ select {
   border-radius: 10px;
   font-size: 18px;
   font-weight: lighter;
-  margin-top: 50px;
 }
 
 .api-container {
@@ -98,7 +97,7 @@ select {
   max-width: 500px;
 }
 
-.caption {
+.productname {
   margin: auto;
   display: block;
   width: 70%;
