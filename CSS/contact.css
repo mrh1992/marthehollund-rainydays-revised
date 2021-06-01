@@ -78,6 +78,11 @@ button {
   font-weight: lighter;
 }
 
+.submit-success {
+  display: none;
+  color: #0b3a40;
+}
+
 @media only screen and (min-width: 768px) {
   .contact-header {
     font-size: 72px;
