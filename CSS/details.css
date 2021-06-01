@@ -10,6 +10,7 @@
 .productimg-container {
   max-width: 300px;
   margin-bottom: 50px;
+  height: auto;
 }
 
 .productdetails-container {
@@ -201,6 +202,7 @@ select {
   .productimg-container {
     max-width: 400px;
     padding-right: 30px;
+    height: auto;
   }
 
   .productdetails-container {
