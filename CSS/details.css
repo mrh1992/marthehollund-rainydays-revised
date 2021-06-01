@@ -9,7 +9,7 @@
 
 .productimg-container {
   max-width: 300px;
-  height: auto;
+  max-height: auto;
 }
 
 .productdetails-container {
