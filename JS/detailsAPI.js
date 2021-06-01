@@ -27,7 +27,7 @@ async function fetchProduct() {
         <div class="productname">${details.name}</div>
         </div>
         <div class="productdetails-container">  
-            <h4>${details.name}</h4>
+            <h2>${details.name}</h2>
             <h4>${details.prices.price} GBP</h4>
             <form>
                 <select>
