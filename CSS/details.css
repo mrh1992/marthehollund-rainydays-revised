@@ -207,6 +207,7 @@ select {
 
   .productdetails-container {
     max-width: 400px;
+    height: auto;
   }
 
   .popup h5 {
