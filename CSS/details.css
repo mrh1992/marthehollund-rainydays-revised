@@ -1,14 +1,15 @@
 .productinfo-container {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  max-width: 1100px;
+  margin: 0 auto;
+  margin-top: 40px;
   justify-content: center;
-  margin: 30px 0 30px 0;
-  margin-left: 20px;
 }
 
 .productimg-container {
   max-width: 300px;
+  margin-bottom: 50px;
 }
 
 .productdetails-container {
@@ -197,18 +198,13 @@ select {
 }
 
 @media only screen and (min-width: 768px) {
-  .productinfo-container {
-    flex-direction: row;
-  }
-
   .productimg-container {
     max-width: 400px;
     padding-right: 30px;
   }
 
   .productdetails-container {
-    max-width: 500px;
-    height: auto;
+    max-width: 400px;
   }
 
   .popup h5 {
