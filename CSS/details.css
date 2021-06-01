@@ -9,8 +9,8 @@
 
 .productimg-container {
   max-width: 300px;
-  height: auto;
-  object-fit: cover;
+  height: 500px;
+  margin-bottom: 50px;
 }
 
 .productdetails-container {
@@ -202,12 +202,10 @@ select {
   .productimg-container {
     max-width: 400px;
     padding-right: 30px;
-    height: auto;
   }
 
   .productdetails-container {
     max-width: 400px;
-    height: auto;
   }
 
   .popup h5 {
