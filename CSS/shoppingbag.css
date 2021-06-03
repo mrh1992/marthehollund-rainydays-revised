@@ -27,7 +27,7 @@ tr {
 }
 
 th {
-  background-color: #0b3a40;
+  background-color: var(--blue);
   color: white;
   padding: 5px;
   font-size: 24px;
@@ -46,7 +46,7 @@ td {
   height: 25px;
   font-size: 16px;
   text-align: center;
-  border: 1px solid #0b3a40;
+  border: 1px solid var(--blue);
   margin-left: 15px;
   margin: 20px 0 40px 0;
 }
@@ -79,9 +79,9 @@ form {
   width: 100%;
   margin: 30px;
   padding: 40px;
-  background: white;
+  background: var(--white);
   display: block;
-  border: 2px solid #7b4026;
+  border: 2px solid var(--brown);
 }
 
 input {
@@ -90,7 +90,7 @@ input {
   padding: 10px;
   font-size: 20px;
   border: none;
-  border-bottom: 1px solid #0b3a40;
+  border-bottom: 1px solid var(--blue);
 }
 
 .input-name,
@@ -101,11 +101,11 @@ input {
   display: block;
   margin-bottom: 16px;
   margin-top: 32px;
-  color: #0b3a40;
+  color: var(--blue);
 }
 
 .icon-container {
-  color: #0b3a40;
+  color: var(--blue);
   font-size: 36px;
 }
 
@@ -118,7 +118,7 @@ input {
 
 button {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;
@@ -135,7 +135,7 @@ button {
 
 .confirm-btn {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 30px 0;
@@ -147,7 +147,7 @@ button {
 }
 
 h2 {
-  color: #0b3a40;
+  color: var(--blue);
 }
 
 @media only screen and (min-width: 768px) {

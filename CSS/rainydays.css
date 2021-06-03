@@ -1,6 +1,6 @@
 h4 {
   text-align: center;
-  color: #7b4026;
+  color: var(--brown);
   font-size: 18px;
   margin-bottom: 30px;
 }

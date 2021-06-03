@@ -1,3 +1,11 @@
+:root {
+  --blue: #0b3a40;
+  --grey: #f2f2f2;
+  --brown: #7b4026;
+  --white: #ffffff;
+  --black: #000000;
+}
+
 h1 {
   font-weight: normal;
   font-size: 24px;
@@ -5,8 +13,6 @@ h1 {
   color: #0b3a40;
   margin: 50px 0 20px 0;
 }
-
-/* NAVIGATION */
 
 * {
   margin: 0;
@@ -16,12 +22,14 @@ h1 {
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: var(--grey);
 }
+
+/* NAVIGATION */
 
 header {
   height: 100px;
-  background-color: white;
+  background-color: var(--white);
   padding: 10px 0;
 }
 
@@ -37,14 +45,14 @@ header {
 
 .hamburger-bars {
   font-size: 26px;
-  color: #0b3a40;
+  color: var(--blue);
   line-height: 80px;
 }
 
 nav {
   z-index: 9999;
   position: absolute;
-  background-color: white;
+  background-color: var(--white);
   top: 100px;
   left: 0;
   width: 100%;
@@ -63,14 +71,14 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   padding: 12px;
-  color: #0b3a40;
+  color: var(--blue);
   text-decoration: none;
   font-size: 26px;
 }
 
 nav ul li a:hover {
-  color: #7b4026;
-  border-bottom: 2px solid #7b4026;
+  color: var(--brown);
+  border-bottom: 2px solid var(--brown);
 }
 
 #hamburger-menu {
@@ -92,7 +100,7 @@ nav ul li a:hover {
 
 .back-btn {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;
@@ -110,24 +118,24 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: #0b3a40;
-  color: white;
+  background-color: var(--blue);
+  color: var(--white);
   line-height: 28px;
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: var(--white);
   font-size: 20px;
   font-weight: normal;
 }
 
 footer a:hover {
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--white);
 }
 
 h3 {
-  color: white;
+  color: var(--white);
   font-size: 24px;
   font-weight: normal;
   padding-bottom: 5px;
@@ -167,7 +175,7 @@ body {
   nav {
     position: relative;
     top: -10px;
-    background-color: white;
+    background-color: var(--white);
   }
 
   nav ul {

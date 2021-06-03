@@ -10,7 +10,7 @@
 .product-card {
   max-width: 300px;
   margin: 30px;
-  background-color: white;
+  background-color: var(--white);
   text-align: center;
 }
 
@@ -27,12 +27,12 @@ h4 {
   font-size: 20px;
   margin-top: 10px;
   text-decoration: none;
-  color: #0b3a40;
+  color: var(--blue);
 }
 
 .product-button {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;
@@ -60,7 +60,7 @@ h4 {
 
 .load-btn {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;

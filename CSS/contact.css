@@ -15,11 +15,11 @@
   font-size: 48px;
   font-weight: bolder;
   color: white;
-  text-shadow: 2px 2px #0b3a40;
+  text-shadow: 2px 2px var(--brown);
 }
 
 h2 {
-  color: #0b3a40;
+  color: var(--blue);
   font-size: 26px;
   font-weight: bold;
 }
@@ -35,9 +35,9 @@ form {
   width: 100%;
   margin: 30px;
   padding: 40px;
-  background: white;
+  background: var(--white);
   display: block;
-  border: 2px solid #7b4026;
+  border: 2px solid var(--brown);
 }
 
 input {
@@ -46,7 +46,7 @@ input {
   padding: 10px;
   font-size: 20px;
   border: none;
-  border-bottom: 1px solid #0b3a40;
+  border-bottom: 1px solid var(--blue);
 }
 
 .input-name,
@@ -55,7 +55,7 @@ input {
   display: block;
   margin-bottom: 16px;
   margin-top: 32px;
-  color: #0b3a40;
+  color: var(--blue);
 }
 
 .form-error {
@@ -67,7 +67,7 @@ input {
 
 button {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 15px 0;
@@ -80,7 +80,7 @@ button {
 
 .submit-success {
   display: none;
-  color: #0b3a40;
+  color: var(--blue);
 }
 
 @media only screen and (min-width: 768px) {

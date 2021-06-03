@@ -1,13 +1,13 @@
 .check-icon {
   font-size: 150px;
-  color: #7b4026;
+  color: var(--brown);
   text-align: center;
   margin-top: 30px;
 }
 
 h2 {
   text-align: center;
-  color: #0b3a40;
+  color: var(--blue);
   font-size: 36px;
   padding: 20px;
 }
@@ -24,7 +24,7 @@ p {
 
 .home-button {
   border: none;
-  background-color: #7b4026;
+  background-color: var(--brown);
   color: white;
   padding: 10px;
   margin: 15px 0 30px 0;

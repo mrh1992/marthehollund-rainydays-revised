@@ -15,7 +15,7 @@
   font-size: 48px;
   font-weight: bolder;
   color: white;
-  text-shadow: 2px 2px #0b3a40;
+  text-shadow: 2px 2px var(--blue);
 }
 
 .about-text-container {
@@ -31,7 +31,7 @@
 
 h2 {
   text-align: center;
-  color: #7b4026;
+  color: var(--brown);
   padding: 10px;
   font-size: 26px;
   font-weight: bold;
