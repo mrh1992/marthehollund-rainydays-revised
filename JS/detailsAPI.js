@@ -44,7 +44,7 @@ async function fetchProduct() {
             <p>${details.short_description}</p>
             <p>${details.description}</p>
             <a href="#add-popup"><button class="add-btn">Add to cart</button></a>
-            <a href="index.html"><button class="back-btn">Back</button></a>
+            
 
             <div id="add-popup" class="overlay">
                 <div class="popup">
