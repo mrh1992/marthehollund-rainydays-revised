@@ -15,7 +15,7 @@ async function getProducts() {
         for (let i = 0; i < results.length; i++) {
 
             breadcrumb.innerHTML = `<li><a href="index.html">Home</a></li>
-            <li>Women</li>`;
+                                    <li>Women</li>`;
 
             productContainer.innerHTML += `<div class="product-card">
                                             <img src="${results[i].images[0].src}" alt="${results[i].name}" class="product-img">

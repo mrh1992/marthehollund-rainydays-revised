@@ -7,11 +7,7 @@ const params = new URLSearchParams(queryString);
 
 const id = params.get("id");
 
-console.log(id);
-
 const url = "https://rainydays.hollundplants.com/wp-json/wc/store/products/" + id;
-
-console.log(url);
 
 async function fetchProduct() {
 
@@ -19,7 +15,6 @@ async function fetchProduct() {
         const response = await fetch(url);
         const details = await response.json();
 
-        console.log(details);
 
         detailContainer.innerHTML = `<img src="${details.images[0].src}" alt="${details.name}" class="productimg-container">
         <div class="modal-container">
