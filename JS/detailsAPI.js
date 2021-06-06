@@ -1,4 +1,5 @@
 const detailContainer = document.querySelector(".productinfo-container");
+const breadcrumb = document.querySelector(".breadcrumbs");
 
 const queryString = document.location.search;
 
@@ -55,8 +56,11 @@ async function fetchProduct() {
                 </div>
                 </div>
             </div>
-        </div>
-       `;
+        </div>`;
+
+       breadcrumb.innerHTML = `<li><a href="index.html">Home</a></li>
+                                <li><a href="men.html">Jackets</a></li>
+                                <li>${details.name}`;
 
        //Modal Image
 

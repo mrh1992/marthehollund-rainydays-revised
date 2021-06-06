@@ -90,6 +90,36 @@ nav ul li a:hover {
   padding: 15px 0;
 }
 
+/* Breadcrumb Navigation */
+ul.breadcrumbs {
+  margin: 20px;
+}
+
+ul.breadcrumbs li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumbs li + li:before {
+  padding: 5px;
+  color: var(--blue);
+  content: "/";
+}
+
+ul.breadcrumbs li a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+ul.breadcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs li:last-child {
+  font-weight: bold;
+  color: var(--brown);
+}
+
 /* Back Button */
 .buttons {
   display: flex;

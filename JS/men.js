@@ -1,6 +1,7 @@
 const url = "https://rainydays.hollundplants.com//wp-json/wc/store/products?category=17";
 const productContainer = document.querySelector(".product-container");
 const loadMore = document.querySelector(".loadMore");
+const breadcrumb = document.querySelector(".breadcrumbs");
 
 async function getProducts() {
     try{
@@ -8,9 +9,13 @@ async function getProducts() {
 
         const results = await response.json();
 
+        breadcrumb.innerHTML = "";
         productContainer.innerHTML = "";
 
         for (let i = 0; i < results.length; i++) {
+
+            breadcrumb.innerHTML = `<li><a href="index.html">Home</a></li>
+                                    <li>Men</li>`;
 
             productContainer.innerHTML += `<div class="product-card">
                                             <img src="${results[i].images[0].src}" alt="${results[i].name}" class="product-img">
