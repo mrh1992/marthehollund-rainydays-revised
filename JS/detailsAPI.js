@@ -58,6 +58,8 @@ async function fetchProduct() {
         </div>
        `;
 
+       //Modal Image
+
         const modal = document.querySelector(".modal-container");
         const img = document.querySelector(".productimg-container");
         const modalImage = document.querySelector(".modal-image");
